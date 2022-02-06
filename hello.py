@@ -1,4 +1,7 @@
 print('Hello')
 
-for i in range(234):
-    print(i)
+a = [i for i in range(1, 6)]    
+
+
+s = [1,2,3,4,5]
+print(s == a) 
